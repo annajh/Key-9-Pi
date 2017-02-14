@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BE11A051E529489007763A0 /* DictionaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE11A041E529489007763A0 /* DictionaryModel.swift */; };
 		5FBD9C0219FE631100AF84A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD9C0119FE631100AF84A3 /* AppDelegate.swift */; };
 		5FBD9C0419FE631100AF84A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD9C0319FE631100AF84A3 /* ViewController.swift */; };
 		5FBD9C0719FE631100AF84A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FBD9C0519FE631100AF84A3 /* Main.storyboard */; };
 		5FBD9C0919FE631100AF84A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FBD9C0819FE631100AF84A3 /* Images.xcassets */; };
 		5FBD9C0C19FE631100AF84A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FBD9C0A19FE631100AF84A3 /* LaunchScreen.xib */; };
-		5FBD9C1819FE631100AF84A3 /* AC_Custom_KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD9C1719FE631100AF84A3 /* AC_Custom_KeyboardTests.swift */; };
+		5FBD9C1819FE631100AF84A3 /* Key9PiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD9C1719FE631100AF84A3 /* Key9PiTests.swift */; };
 		5FBD9C2A19FE639900AF84A3 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD9C2919FE639900AF84A3 /* KeyboardViewController.swift */; };
 		5FBD9C2D19FE639900AF84A3 /* Appcoda Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5FBD9C2519FE639900AF84A3 /* Appcoda Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5FBD9C3519FE63D800AF84A3 /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FBD9C3419FE63D800AF84A3 /* KeyboardView.xib */; };
@@ -57,6 +58,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0BE11A041E529489007763A0 /* DictionaryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryModel.swift; sourceTree = "<group>"; };
 		5FBD9BFC19FE631100AF84A3 /* AC Custom Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC Custom Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FBD9C0019FE631100AF84A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FBD9C0119FE631100AF84A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,7 +68,7 @@
 		5FBD9C0B19FE631100AF84A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5FBD9C1119FE631100AF84A3 /* AC Custom KeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AC Custom KeyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FBD9C1619FE631100AF84A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FBD9C1719FE631100AF84A3 /* AC_Custom_KeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AC_Custom_KeyboardTests.swift; sourceTree = "<group>"; };
+		5FBD9C1719FE631100AF84A3 /* Key9PiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key9PiTests.swift; sourceTree = "<group>"; };
 		5FBD9C2519FE639900AF84A3 /* Appcoda Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Appcoda Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FBD9C2819FE639900AF84A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FBD9C2919FE639900AF84A3 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
@@ -101,9 +103,9 @@
 		5FBD9BF319FE631100AF84A3 = {
 			isa = PBXGroup;
 			children = (
-				5FBD9BFE19FE631100AF84A3 /* AC Custom Keyboard */,
-				5FBD9C1419FE631100AF84A3 /* AC Custom KeyboardTests */,
-				5FBD9C2619FE639900AF84A3 /* Appcoda Keyboard */,
+				5FBD9BFE19FE631100AF84A3 /* Key9Pi */,
+				5FBD9C1419FE631100AF84A3 /* Key9PiTests */,
+				5FBD9C2619FE639900AF84A3 /* Key9Keyboard */,
 				5FBD9BFD19FE631100AF84A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,7 +120,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5FBD9BFE19FE631100AF84A3 /* AC Custom Keyboard */ = {
+		5FBD9BFE19FE631100AF84A3 /* Key9Pi */ = {
 			isa = PBXGroup;
 			children = (
 				5FBD9C0119FE631100AF84A3 /* AppDelegate.swift */,
@@ -128,6 +130,7 @@
 				5FBD9C0A19FE631100AF84A3 /* LaunchScreen.xib */,
 				5FBD9BFF19FE631100AF84A3 /* Supporting Files */,
 			);
+			name = Key9Pi;
 			path = "AC Custom Keyboard";
 			sourceTree = "<group>";
 		};
@@ -139,12 +142,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5FBD9C1419FE631100AF84A3 /* AC Custom KeyboardTests */ = {
+		5FBD9C1419FE631100AF84A3 /* Key9PiTests */ = {
 			isa = PBXGroup;
 			children = (
-				5FBD9C1719FE631100AF84A3 /* AC_Custom_KeyboardTests.swift */,
+				5FBD9C1719FE631100AF84A3 /* Key9PiTests.swift */,
 				5FBD9C1519FE631100AF84A3 /* Supporting Files */,
 			);
+			name = Key9PiTests;
 			path = "AC Custom KeyboardTests";
 			sourceTree = "<group>";
 		};
@@ -156,13 +160,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5FBD9C2619FE639900AF84A3 /* Appcoda Keyboard */ = {
+		5FBD9C2619FE639900AF84A3 /* Key9Keyboard */ = {
 			isa = PBXGroup;
 			children = (
 				5FBD9C2919FE639900AF84A3 /* KeyboardViewController.swift */,
+				0BE11A041E529489007763A0 /* DictionaryModel.swift */,
 				5FBD9C3419FE63D800AF84A3 /* KeyboardView.xib */,
 				5FBD9C2719FE639900AF84A3 /* Supporting Files */,
 			);
+			name = Key9Keyboard;
 			path = "Appcoda Keyboard";
 			sourceTree = "<group>";
 		};
@@ -256,7 +262,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5FBD9BF719FE631100AF84A3 /* Build configuration list for PBXProject "AC Custom Keyboard" */;
+			buildConfigurationList = 5FBD9BF719FE631100AF84A3 /* Build configuration list for PBXProject "Key9Pi" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -318,7 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FBD9C1819FE631100AF84A3 /* AC_Custom_KeyboardTests.swift in Sources */,
+				5FBD9C1819FE631100AF84A3 /* Key9PiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FBD9C2A19FE639900AF84A3 /* KeyboardViewController.swift in Sources */,
+				0BE11A051E529489007763A0 /* DictionaryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,7 +543,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5FBD9BF719FE631100AF84A3 /* Build configuration list for PBXProject "AC Custom Keyboard" */ = {
+		5FBD9BF719FE631100AF84A3 /* Build configuration list for PBXProject "Key9Pi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FBD9C1919FE631100AF84A3 /* Debug */,

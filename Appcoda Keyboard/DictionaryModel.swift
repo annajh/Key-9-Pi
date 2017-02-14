@@ -6,4 +6,8 @@
 //  Copyright © 2017 Appcoda. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class DictionaryModel {
+    
+}

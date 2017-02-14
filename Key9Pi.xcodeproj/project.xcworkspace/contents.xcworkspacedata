@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AC Custom Keyboard.xcodeproj">
+      location = "self:/Users/annajh/Key-9-Pi/Key9Pi.xcodeproj">
    </FileRef>
 </Workspace>
