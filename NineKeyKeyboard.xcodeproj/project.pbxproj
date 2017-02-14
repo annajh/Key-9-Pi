@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E282B2501E52A1990002FCCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E282B24F1E52A1990002FCCC /* AppDelegate.swift */; };
+		E282B2521E52A1990002FCCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E282B2511E52A1990002FCCC /* ViewController.swift */; };
+		E282B2551E52A1990002FCCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E282B2531E52A1990002FCCC /* Main.storyboard */; };
+		E282B2571E52A1990002FCCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E282B2561E52A1990002FCCC /* Assets.xcassets */; };
+		E282B25A1E52A1990002FCCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E282B2581E52A1990002FCCC /* LaunchScreen.storyboard */; };
+		E282B2651E52A1990002FCCC /* NineKeyKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E282B2641E52A1990002FCCC /* NineKeyKeyboardTests.swift */; };
+		E282B2701E52A1990002FCCC /* NineKeyKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E282B26F1E52A1990002FCCC /* NineKeyKeyboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E282B2611E52A1990002FCCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E282B2441E52A1980002FCCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E282B24B1E52A1990002FCCC;
+			remoteInfo = NineKeyKeyboard;
+		};
+		E282B26C1E52A1990002FCCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E282B2441E52A1980002FCCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E282B24B1E52A1990002FCCC;
+			remoteInfo = NineKeyKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E282B24C1E52A1990002FCCC /* NineKeyKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NineKeyKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E282B24F1E52A1990002FCCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E282B2511E52A1990002FCCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E282B2541E52A1990002FCCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E282B2561E52A1990002FCCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E282B2591E52A1990002FCCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E282B25B1E52A1990002FCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E282B2601E52A1990002FCCC /* NineKeyKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NineKeyKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E282B2641E52A1990002FCCC /* NineKeyKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NineKeyKeyboardTests.swift; sourceTree = "<group>"; };
+		E282B2661E52A1990002FCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E282B26B1E52A1990002FCCC /* NineKeyKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NineKeyKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E282B26F1E52A1990002FCCC /* NineKeyKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NineKeyKeyboardUITests.swift; sourceTree = "<group>"; };
+		E282B2711E52A1990002FCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E282B2491E52A1990002FCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E282B25D1E52A1990002FCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E282B2681E52A1990002FCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E282B2431E52A1980002FCCC = {
+			isa = PBXGroup;
+			children = (
+				E282B24E1E52A1990002FCCC /* NineKeyKeyboard */,
+				E282B2631E52A1990002FCCC /* NineKeyKeyboardTests */,
+				E282B26E1E52A1990002FCCC /* NineKeyKeyboardUITests */,
+				E282B24D1E52A1990002FCCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E282B24D1E52A1990002FCCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E282B24C1E52A1990002FCCC /* NineKeyKeyboard.app */,
+				E282B2601E52A1990002FCCC /* NineKeyKeyboardTests.xctest */,
+				E282B26B1E52A1990002FCCC /* NineKeyKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E282B24E1E52A1990002FCCC /* NineKeyKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E282B24F1E52A1990002FCCC /* AppDelegate.swift */,
+				E282B2511E52A1990002FCCC /* ViewController.swift */,
+				E282B2531E52A1990002FCCC /* Main.storyboard */,
+				E282B2561E52A1990002FCCC /* Assets.xcassets */,
+				E282B2581E52A1990002FCCC /* LaunchScreen.storyboard */,
+				E282B25B1E52A1990002FCCC /* Info.plist */,
+			);
+			path = NineKeyKeyboard;
+			sourceTree = "<group>";
+		};
+		E282B2631E52A1990002FCCC /* NineKeyKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				E282B2641E52A1990002FCCC /* NineKeyKeyboardTests.swift */,
+				E282B2661E52A1990002FCCC /* Info.plist */,
+			);
+			path = NineKeyKeyboardTests;
+			sourceTree = "<group>";
+		};
+		E282B26E1E52A1990002FCCC /* NineKeyKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E282B26F1E52A1990002FCCC /* NineKeyKeyboardUITests.swift */,
+				E282B2711E52A1990002FCCC /* Info.plist */,
+			);
+			path = NineKeyKeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E282B24B1E52A1990002FCCC /* NineKeyKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E282B2741E52A1990002FCCC /* Build configuration list for PBXNativeTarget "NineKeyKeyboard" */;
+			buildPhases = (
+				E282B2481E52A1990002FCCC /* Sources */,
+				E282B2491E52A1990002FCCC /* Frameworks */,
+				E282B24A1E52A1990002FCCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NineKeyKeyboard;
+			productName = NineKeyKeyboard;
+			productReference = E282B24C1E52A1990002FCCC /* NineKeyKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E282B25F1E52A1990002FCCC /* NineKeyKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E282B2771E52A1990002FCCC /* Build configuration list for PBXNativeTarget "NineKeyKeyboardTests" */;
+			buildPhases = (
+				E282B25C1E52A1990002FCCC /* Sources */,
+				E282B25D1E52A1990002FCCC /* Frameworks */,
+				E282B25E1E52A1990002FCCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E282B2621E52A1990002FCCC /* PBXTargetDependency */,
+			);
+			name = NineKeyKeyboardTests;
+			productName = NineKeyKeyboardTests;
+			productReference = E282B2601E52A1990002FCCC /* NineKeyKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E282B26A1E52A1990002FCCC /* NineKeyKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E282B27A1E52A1990002FCCC /* Build configuration list for PBXNativeTarget "NineKeyKeyboardUITests" */;
+			buildPhases = (
+				E282B2671E52A1990002FCCC /* Sources */,
+				E282B2681E52A1990002FCCC /* Frameworks */,
+				E282B2691E52A1990002FCCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E282B26D1E52A1990002FCCC /* PBXTargetDependency */,
+			);
+			name = NineKeyKeyboardUITests;
+			productName = NineKeyKeyboardUITests;
+			productReference = E282B26B1E52A1990002FCCC /* NineKeyKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E282B2441E52A1980002FCCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Mingyuan Zhou";
+				TargetAttributes = {
+					E282B24B1E52A1990002FCCC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					E282B25F1E52A1990002FCCC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E282B24B1E52A1990002FCCC;
+					};
+					E282B26A1E52A1990002FCCC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E282B24B1E52A1990002FCCC;
+					};
+				};
+			};
+			buildConfigurationList = E282B2471E52A1980002FCCC /* Build configuration list for PBXProject "NineKeyKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E282B2431E52A1980002FCCC;
+			productRefGroup = E282B24D1E52A1990002FCCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E282B24B1E52A1990002FCCC /* NineKeyKeyboard */,
+				E282B25F1E52A1990002FCCC /* NineKeyKeyboardTests */,
+				E282B26A1E52A1990002FCCC /* NineKeyKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E282B24A1E52A1990002FCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E282B25A1E52A1990002FCCC /* LaunchScreen.storyboard in Resources */,
+				E282B2571E52A1990002FCCC /* Assets.xcassets in Resources */,
+				E282B2551E52A1990002FCCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E282B25E1E52A1990002FCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E282B2691E52A1990002FCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E282B2481E52A1990002FCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E282B2521E52A1990002FCCC /* ViewController.swift in Sources */,
+				E282B2501E52A1990002FCCC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E282B25C1E52A1990002FCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E282B2651E52A1990002FCCC /* NineKeyKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E282B2671E52A1990002FCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E282B2701E52A1990002FCCC /* NineKeyKeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E282B2621E52A1990002FCCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E282B24B1E52A1990002FCCC /* NineKeyKeyboard */;
+			targetProxy = E282B2611E52A1990002FCCC /* PBXContainerItemProxy */;
+		};
+		E282B26D1E52A1990002FCCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E282B24B1E52A1990002FCCC /* NineKeyKeyboard */;
+			targetProxy = E282B26C1E52A1990002FCCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E282B2531E52A1990002FCCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E282B2541E52A1990002FCCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E282B2581E52A1990002FCCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E282B2591E52A1990002FCCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E282B2721E52A1990002FCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E282B2731E52A1990002FCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E282B2751E52A1990002FCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NineKeyKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EECS481.NineKeyKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E282B2761E52A1990002FCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NineKeyKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EECS481.NineKeyKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E282B2781E52A1990002FCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NineKeyKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EECS481.NineKeyKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NineKeyKeyboard.app/NineKeyKeyboard";
+			};
+			name = Debug;
+		};
+		E282B2791E52A1990002FCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NineKeyKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EECS481.NineKeyKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NineKeyKeyboard.app/NineKeyKeyboard";
+			};
+			name = Release;
+		};
+		E282B27B1E52A1990002FCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NineKeyKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EECS481.NineKeyKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NineKeyKeyboard;
+			};
+			name = Debug;
+		};
+		E282B27C1E52A1990002FCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NineKeyKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EECS481.NineKeyKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NineKeyKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E282B2471E52A1980002FCCC /* Build configuration list for PBXProject "NineKeyKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E282B2721E52A1990002FCCC /* Debug */,
+				E282B2731E52A1990002FCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E282B2741E52A1990002FCCC /* Build configuration list for PBXNativeTarget "NineKeyKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E282B2751E52A1990002FCCC /* Debug */,
+				E282B2761E52A1990002FCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E282B2771E52A1990002FCCC /* Build configuration list for PBXNativeTarget "NineKeyKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E282B2781E52A1990002FCCC /* Debug */,
+				E282B2791E52A1990002FCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E282B27A1E52A1990002FCCC /* Build configuration list for PBXNativeTarget "NineKeyKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E282B27B1E52A1990002FCCC /* Debug */,
+				E282B27C1E52A1990002FCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E282B2441E52A1980002FCCC /* Project object */;
+}
